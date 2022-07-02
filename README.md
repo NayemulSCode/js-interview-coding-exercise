@@ -2090,3 +2090,89 @@ func2();
   
 </details>
 
+#### 65. Guess the outputs of the following codes:
+
+```javascript
+let x= {}, y = {name:"Mona"},z = {name:"Omra"};
+x[y] = {name:"Saheb"};
+x[z] = {name:"Mahmudul"};
+console.log(x[y]);
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: Output will be {name: “Mahmudul”}
+
+Adding objects as properties of another object should be done carefully.
+Writing x[y] = {name:”Saheb”} , is same as writing x[‘object Object’] = {name:”Saheb”} ,
+While setting a property of an object, javascript coerces the parameter into a string.
+Therefore, since y is an object, it will be converted to ‘object Object’.
+Both x[y] and x[z] are referencing the same property.
+</p>
+  
+</details>
+
+#### 66. Guess the outputs of the following codes:
+
+```javascript
+function runFunc(){
+  console.log("1" + 1);
+  console.log("1" - 1);
+  console.log("A" - 1);
+  console.log(2 + "-2" + "2");
+  console.log("Hello" - "World" + 78);
+  console.log("Hello"+ "78");
+}
+runFunc();
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: Outputs in the following order-
+
+```javascript
+11
+0
+Nan
+2-22
+NaN
+Hello78
+```
+
+When JavaScript sees that the operands of the expression x + y are of different types ( one being a number type and the other being a string type ), it converts the number type to the string type and then performs the operation. Since after conversion, both the variables are of string type, the ‘ + ‘ operator outputs the concatenated string “33” in the first example and “24Hello” in the second example.
+
+Note - Type coercion also takes place when using the ‘ - ‘ operator, but the difference while using ‘ - ‘ operator is that, a string is converted to a number and then subtraction takes place.
+
+</p>
+  
+</details>
+
+
+#### 67. Guess the outputs of the following codes:
+
+```javascript
+let a = 0;
+let b = false;
+console.log((a == b));
+console.log((a === b));
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+
+```javascript
+true
+false
+```
+
+The ‘ == ‘ operator compares values and not types.
+
+The ‘==’ operator,compare both values and types.
+</p>
+  
+</details>
+
