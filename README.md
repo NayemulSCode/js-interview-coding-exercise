@@ -2171,7 +2171,94 @@ false
 
 The ‘ == ‘ operator compares values and not types.
 
-The ‘==’ operator,compare both values and types.
+The ‘===’ operator,compare both values and types.
+</p>
+  
+</details>
+
+#### 68. Guess the outputs of the following codes:
+
+```javascript
+function booleanTestCase(){
+    console.log(0 || 1);
+    console.log(0 || 5);
+    console.log(5 || 0); 
+    console.log(5 || 1);
+    console.log(1 || 5); 
+    console.log(0 && 1);
+    console.log(0 && 5); 
+    console.log(5 && 0); 
+    console.log(1 && 5); 
+    console.log(5 && 1); 
+    
+}
+booleanTestCase()
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+
+```javascript
+1
+5
+5
+5
+1
+0
+0
+0
+5
+1
+```
+
+OR ( | | ) operator - If the first value is truthy, then the first value is returned. Otherwise, always the second value gets returned.
+
+AND ( && ) operator - If both the values are truthy, always the second value is returned. If the first value is falsy then the first value is returned or if the second value is falsy then the second value is returned.
+</p>
+  
+</details>
+
+#### 69. Guess the outputs of the following codes for isNaN():
+
+```javascript
+function isNaNTestCase(){
+  console.log(isNaN('World'));
+  console.log(isNaN('22'));
+  console.log(isNaN(22));
+  console.log(isNaN('_1'));
+  console.log(isNaN('1'));
+  console.log(isNaN(0));
+  console.log(isNaN(true));
+  console.log(isNaN(false));
+}
+isNaNTestCase()
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+
+```javascript
+true
+false
+false
+true
+false
+false
+false
+false
+```
+
+NaN property represents the “Not-a-Number” value. It indicates a value that is not a legal number.
+
+typeof of NaN will return a Number.
+
+To check if a value is NaN, we use the isNaN() function,
+
+Note- isNaN() function converts the given value to a Number type, and then equates to NaN.
 </p>
   
 </details>
