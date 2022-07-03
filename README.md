@@ -2263,3 +2263,28 @@ Note- isNaN() function converts the given value to a Number type, and then equat
   
 </details>
 
+
+#### 70. Guess the outputs of the following codes:
+
+```javascript
+(function (a) {
+    return (function () {
+        console.log(a);
+        a = 20;
+    })()
+})(59);
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+
+```javascript
+59
+```
+
+Even though a is defined in the outer function, due to closure the inner functions have access to it.
+</p>
+  
+</details>

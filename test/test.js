@@ -11,7 +11,7 @@ function booleanTestCase(){
     console.log(5 && 1); //1
     
 }
-booleanTestCase();;
+// booleanTestCase();;
 
 function isNaNTestCase(){
     console.log(isNaN('World'));
@@ -23,4 +23,13 @@ function isNaNTestCase(){
     console.log(isNaN(true));
     console.log(isNaN(false));
 }
-isNaNTestCase()
+// isNaNTestCase();
+
+(function (a) {
+    a = 30
+    console.log(a)
+    return (function () {
+        console.log(a);
+        a = 20;
+    })()
+})(59);
