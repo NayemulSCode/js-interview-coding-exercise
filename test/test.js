@@ -26,10 +26,37 @@ function isNaNTestCase(){
 // isNaNTestCase();
 
 (function (a) {
-    a = 30
-    console.log(a)
+    // a = 30
+    // console.log(a)
     return (function () {
         console.log(a);
         a = 20;
     })()
 })(59);
+
+// 71
+var obj = {
+    name: "Nayemul",
+    getName: function () {
+        console.log(this.name);
+    }
+}
+var getName = obj.getName;
+var obj2 = { 
+    name: "Omra Haque", 
+    getName 
+};
+obj2.getName();
+
+// 72 right code
+var obj1 = {
+    address: "Mohammadpur, Dhaka-Bangladesh",
+    getAddress: function () {
+        console.log(this.address);
+    }
+}
+
+var getAddress = obj1.getAddress;
+var obj2 = { address: "Nayemul saheb", getAddress };
+obj2.getAddress();
+

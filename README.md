@@ -2283,8 +2283,71 @@ Note- isNaN() function converts the given value to a Number type, and then equat
 ```javascript
 59
 ```
-
 Even though a is defined in the outer function, due to closure the inner functions have access to it.
 </p>
   
 </details>
+
+#### 71.Guess the outputs of the following codes(this keyword): 
+
+```javascript
+var obj = {
+    name: "Nayemul",
+    getName: function () {
+        console.log(this.name);
+    }
+}
+var getName = obj.getName;
+var obj2 = { 
+    name: "Omra Haque", 
+    getName 
+};
+obj2.getName();
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: Omra Haque
+The “this” keyword refers to the object that the function is a property of(.)
+
+The value of the “this” keyword will always depend on the object that is invoking the function.
+
+Although the getName function is declared inside the object obj, at the time of invocation, getName() is a property of obj2, therefore the “this” keyword will refer to obj2.
+
+The silly way to understand the “this” keyword is, whenever the function is invoked, check the object before the dot. The value of this . keyword will always be the object before the dot.
+
+Note: If there is no object before the dot, the value of this keyword will be the global object.
+</p>
+  
+</details>
+
+
+#### 71.Guess the outputs of the following codes(this keyword): 
+
+```javascript
+var obj1 = {
+    address: "Mohammadpur, Dhaka-Bangladesh",
+    getAddress: function () {
+        console.log(this.address);
+    }
+}
+
+var getAddress = obj1.getAddress;
+var obj2 = { name: "Nayemul saheb" };
+obj2.getAddress();
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: output will be an error.
+
+```javascript
+Uncaught TypeError: obj2.getAddress is not a function
+```
+Although in the code above, this keyword refers to the object obj2, obj2 does not have the property “address”‘, hence the getAddress function throws an error.
+</p>
+  
+</details>
+
