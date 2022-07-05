@@ -60,3 +60,7 @@ var getAddress = obj1.getAddress;
 var obj2 = { address: "Nayemul saheb", getAddress };
 obj2.getAddress();
 
+
+
+
+

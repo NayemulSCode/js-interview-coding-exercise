@@ -2288,7 +2288,7 @@ Even though a is defined in the outer function, due to closure the inner functio
   
 </details>
 
-#### 71.Guess the outputs of the following codes(this keyword): 
+#### 71. Guess the outputs of the following codes(this keyword): 
 
 ```javascript
 var obj = {
@@ -2308,7 +2308,8 @@ obj2.getName();
 <details><summary><b>Answer</b></summary>
 <p>
 
-##### Answer: Omra Haque
+##### Answer: output will be "Omra Haque"
+
 The “this” keyword refers to the object that the function is a property of(.)
 
 The value of the “this” keyword will always depend on the object that is invoking the function.
@@ -2317,13 +2318,23 @@ Although the getName function is declared inside the object obj, at the time of 
 
 The silly way to understand the “this” keyword is, whenever the function is invoked, check the object before the dot. The value of this . keyword will always be the object before the dot.
 
-Note: If there is no object before the dot, the value of this keyword will be the global object.
+Note: If there is no object before the dot, the value of this keyword will be the global object. example
+```javascript
+function doSomething() {
+  console.log(this);
+}
+doSomething();
+```
+output
+```javascript
+Window {window: Window, self: Window, document: document, name: '', location: Location, …}
+```
 </p>
   
 </details>
 
 
-#### 71.Guess the outputs of the following codes(this keyword): 
+#### 72. Guess the outputs of the following codes(this keyword): 
 
 ```javascript
 var obj1 = {
