@@ -2362,3 +2362,43 @@ Although in the code above, this keyword refers to the object obj2, obj2 does no
   
 </details>
 
+#### 73. What will the following code output?: 
+
+```javascript
+0.1 + 0.2 === 0.3
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: output will be  false.
+
+This will surprisingly output false because of floating point errors in internally representing certain numbers. 0.1 + 0.2 does not nicely come out to 0.3 but instead the result is actually 0.30000000000000004 because the computer cannot internally represent the correct number. One solution to get around this problem is to round the results when doing arithmetic with decimal numbers.
+</p>
+  
+</details>
+
+#### 74. How would you check if a number is an integer? write solution for those result.
+
+```javascript
+console.log(isInt(4)); // true
+console.log(isInt(12.2)); // false
+console.log(isInt(0.3)); // fals
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer:
+
+```javascript
+function isInt(num) {
+  return num % 1 === 0;
+}
+```
+
+A very simply way to check if a number is a decimal or integer is to see if there is a remainder left when you divide by 1.
+</p>
+  
+</details>
+
