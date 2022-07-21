@@ -30,10 +30,6 @@ The function declarations are hoisted similar to any variables. So the placement
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
-
 #### 2. What is the output of below code
 
 ```javascript
@@ -70,9 +66,6 @@ Since the block scoped variable x is undefined outside of the function, the type
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 3. What is the output of below code
 
@@ -111,9 +104,6 @@ The statements order is based on the event loop mechanism. The order of statemen
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 4. What is the output of below equality check
 
@@ -135,9 +125,6 @@ You can find more details about the explanation here [0.30000000000000004.com/](
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 5. What is the output of below code
 
@@ -179,9 +166,6 @@ console.log(y);
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 6. What is the output of below code
 
@@ -221,9 +205,6 @@ console.log(foo()); // {message: "Hello World"}
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 7. What is the output of below code
 
@@ -251,9 +232,6 @@ If you try to print myChars then you can observe that it doesn't set an undefine
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 8. What is the output of below code in latest Chrome
 
@@ -285,9 +263,7 @@ The latest chrome versions display `sparse array`(they are filled with holes) us
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 9. What is the output of below code
 
@@ -324,9 +300,7 @@ ES6 provides method definitions and property shorthands for objects. So both pro
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 10. What is the output of below code
 
@@ -363,9 +337,7 @@ Whereas the second statement follows the below order,
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 11. What is the output of below code in non-strict mode
 
@@ -394,9 +366,6 @@ The value of the first parameter is mapped to the third argument which is passed
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 12. What is the output of below code
 
@@ -422,9 +391,7 @@ Unlike regular functions, the arrow functions doesn't not allow duplicate parame
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 13. What is the output of below code
 
@@ -464,9 +431,6 @@ console.log(arrowFunc(1, 2, 3));
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 14. What is the output of below code
 
@@ -488,9 +452,7 @@ In order to be consistent with functions like `String.prototype.padStart`, the s
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 15. What is the output of below code
 
@@ -514,9 +476,7 @@ console.log(Math.max());
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 16. What is the output of below code
 
@@ -546,9 +506,6 @@ So it doesn't matter about number brackets([]) around the number, it is always c
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 17. What is the output of below code
 
@@ -572,9 +529,7 @@ The concatenation operator(+) is applicable for both number and string types. So
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 18. What is the output of below code
 
@@ -623,9 +578,7 @@ The + operator is not meant or defined for arrays. So it converts arrays into st
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 20. What is the output of below code
 
@@ -652,9 +605,7 @@ Since `Set` object is a collection of unique values, it won't allow duplicate va
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 21. What is the output of below code
 
@@ -675,9 +626,7 @@ JavaScript follows IEEE 754 spec standards. As per this spec, NaNs are never equ
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 22. What is the output of below code
 
@@ -709,9 +658,7 @@ console.log(numbers.includes(NaN)); // true
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 23. What is the output of below code
 
@@ -741,9 +688,7 @@ console.log(a, b); // 1, [2, 3, 4, 5]
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 25. What is the output of below code
 
@@ -775,9 +720,7 @@ function func() {
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 26. What is the output of below code
 
@@ -809,9 +752,6 @@ function func() {
 </p>
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 27. What is the output of below code
 
@@ -850,9 +790,6 @@ Even though “processArray” is an async function, the anonymous function that
 
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 28. What is the output of below code
 
@@ -901,9 +838,7 @@ async function processArray(array) {
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 29. What is the output of below code
 
@@ -931,9 +866,7 @@ Set has few exceptions from equality check,
 </p>
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 30. What is the output of below code
 
@@ -968,9 +901,7 @@ Symbol follows below conventions,
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 31. What is the output of below code
 
@@ -995,9 +926,7 @@ console.log(sym1);
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 32. What is the output of below code
 
@@ -1034,9 +963,7 @@ The return value of `typeof myNumber (OR) typeof myString` is always the truthy 
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 33. What is the output of below code
 
@@ -1068,9 +995,7 @@ The symbols has below constraints,
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 34. What is the output of below code
 
@@ -1105,9 +1030,7 @@ Using constructors, `new.target` refers to the constructor (points to the class 
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 35. What is the output of below code
 
@@ -1164,9 +1087,6 @@ The object property follows below rules,
 
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 37. What is the output of below code
 
@@ -1216,9 +1136,7 @@ area();
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 38. What is the output of below code
 
@@ -1249,9 +1167,7 @@ It is possible to combine Array and Object destructuring. In this case, the thir
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 39. What is the output of below code
 
@@ -1287,9 +1203,7 @@ Hence, the result of function calls categorized as below,
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 40. What is the output of below code
 
@@ -1317,9 +1231,7 @@ Since the default argument is evaluated at call time, a new object is created ea
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 41. What is the output of below code
 
@@ -1346,9 +1258,7 @@ Since parameters defined earlier are available to later default parameters, this
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 42. What is the output of below code
 
@@ -1375,9 +1285,7 @@ The functions and variables declared in the function body cannot be referred fro
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 43. What is the output of below code
 
@@ -1406,9 +1314,7 @@ The rest parameter is used to hold the remaining parameters of a function and it
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 44. What is the output of below code
 
@@ -1434,9 +1340,6 @@ Spread syntax can be applied only to iterable objects. By default, Objects are n
 
 </details>
 
----
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 45. What is the output of below code
 
@@ -1466,9 +1369,7 @@ Generators are not constructible type. But if you still proceed to do, there wil
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 46. What is the output of below code
 
@@ -1501,9 +1402,7 @@ A return statement in a generator function will make the generator finish. If a 
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 47. What is the output of below code
 
@@ -1539,9 +1438,7 @@ The generator should not be re-used once the iterator is closed. i.e, Upon exiti
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 48. What is the output of below code
 
@@ -1564,9 +1461,7 @@ If you use an invalid number(outside of 0-7 range) in the octal literal, JavaScr
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 49. What is the output of below code
 
@@ -1605,9 +1500,7 @@ Unlike function declarations, class declarations are not hoisted. i.e, First You
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 50. What is the output of below code
 
@@ -1646,9 +1539,7 @@ When a regular or prototype method is called without a value for **this**, the m
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 51. What is the output of below code
 
@@ -1690,9 +1581,7 @@ The super keyword is used to call methods of a superclass. Unlike other language
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 52. What is the output of below code
 
@@ -1718,9 +1607,7 @@ Even though we used constant variables, the content of it is an object and the o
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 53. What is the output of below code
 
@@ -1742,9 +1629,7 @@ Emojis are unicodes and the unicode for smile symbol is "U+1F642". The unicode c
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 54. What is the output of below code?
 
@@ -1768,9 +1653,7 @@ The typeof operator on any primitive returns a string value. So even if you appl
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 55. What is the output of below code?
 
@@ -1803,9 +1686,7 @@ Hence the above code block always goes to if section.
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 55. What is the output of below code in non strict mode?
 
@@ -1833,9 +1714,7 @@ It returns undefined for non-strict mode and returns Error for strict mode. In n
 
 </details>
 
----
 
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 56. What is the output of below code?
 
@@ -1868,9 +1747,6 @@ Whereas the second console.log logs 10 by capturing the count variable from oute
 
 </p>
 
-</details>
-
-**[⬆ Back to Top](#table-of-contents)**
 
 #### 57. What is the output of below code ?
 
@@ -2402,3 +2278,92 @@ A very simply way to check if a number is a decimal or integer is to see if ther
   
 </details>
 
+#### 75. Write a function that would allow you to do this.
+
+```javascript
+multiply(5)(6);
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: output will be 30
+  
+You can create a closure to keep the value of a even after the inner function is returned. The inner function that is being returned is created within an outer function, making it a closure, and it has access to the variables within the outer function, in this case the variable a.
+  
+```javascript
+function multiply(a) {
+  return function(b) {
+    return a * b;
+  }
+}
+
+multiply(5)(6);
+```
+
+</p>
+  
+</details>
+### 76. Write a "mul" function which will properly when invoked as below syntax
+
+```javascript
+console.log(mul(2)(3)(4)); // output : 24
+console.log(mul(4)(3)(4)); // output : 48
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+  
+```javascript
+function mul (x) {
+  return function (y) { // anonymous function
+    return function (z) { // anonymous function
+      return x * y * z;
+    };
+  };
+}
+```
+Here mul function accept the first argument and return anonymous function which take the second parameter and return anonymous function which take the third parameter and return multiplication of arguments which is being passed in successive
+
+In JavaScript function defined inside has access to outer function variable and function is the first class object so it can be returned by function as well and passed as argument in another function.
+
+A function is an instance of the Object type
+A function can have properties and has a link back to its constructor method
+Function can be stored as variable
+Function can be pass as a parameter to another function
+Function can be returned from function
+</p>
+  
+</details>
+
+### 77. Write a "mul" function which will properly when invoked as below syntax
+
+```javascript
+var addSix = createBase(6);
+addSix(10); // returns 16
+addSix(21); // returns 27
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+  
+```javascript
+function createBase(baseNumber) {
+  return function(N) {
+    // we are referencing baseNumber here even though it was declared
+    // outside of this function. Closures allow us to do this in JavaScript
+    return baseNumber + N;
+  }
+}
+
+var addSix = createBase(6);
+addSix(10);
+addSix(21);
+```
+</p>
+  
+</details>
