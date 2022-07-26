@@ -1737,7 +1737,7 @@ let count = 10;
 
 <details><summary><b>Answer</b></summary>
 <p>
-
+</details>
 ##### Answer: 1
 
 11 and 10 is logged to the console.
