@@ -2250,6 +2250,9 @@ Although in the code above, this keyword refers to the object obj2, obj2 does no
 ##### Answer: output will be  false.
 
 This will surprisingly output false because of floating point errors in internally representing certain numbers. 0.1 + 0.2 does not nicely come out to 0.3 but instead the result is actually 0.30000000000000004 because the computer cannot internally represent the correct number. One solution to get around this problem is to round the results when doing arithmetic with decimal numbers.
+```javascript
+console.log(0.1+0.2 === 0.30000000000000004)
+```
 </p>
   
 </details>
@@ -2363,6 +2366,28 @@ function createBase(baseNumber) {
 var addSix = createBase(6);
 addSix(10);
 addSix(21);
+```
+</p>
+  
+</details>
+
+### 78. How to truncate a floating point number to its integral part, completely dropping the fractional part.
+
+```javascript
+42.7 -> 42
+0.1 -> 0
+-0.1 -> -0
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+ use es6 feature Number Truncation
+```javascript
+console.log(Math.trunc(42.7)) // 42
+console.log(Math.trunc( 0.1)) // 0
+console.log(Math.trunc(-0.1)) // -0
 ```
 </p>
   
