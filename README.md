@@ -2392,3 +2392,50 @@ console.log(Math.trunc(-0.1)) // -0
 </p>
   
 </details>
+
+### 79. How to convert a flattened array from a nested array.write down the solution for given array.
+
+```javascript
+const nestedArray  = ["level 1","level 1",
+  ["level 2","level 2", "level 2"],
+  ["level 2", 
+   ["level 3", "level 3",["level 4","level 4"]]
+  ]];
+```
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+ solution 1: using javascript flatMap method.
+```javascript
+  const flattened = nestedArray.flatMap(level12 => level12).flatMap(level3=> level3).flatMap(level4 => level4);
+  console.log(flattened);
+```
+solution 2: using javascript flat method.
+```javascript
+  const flattened = nestedArray.flat(Infinity);;
+  console.log(flattened);
+```
+solution 3: 
+```javascript
+function flatten(ary) {
+  return ary.reduce(function(a, b) {
+    if (Array.isArray(b)) {
+      return a.concat(flatten(b))
+    }
+    return a.concat(b)
+  }, [])
+}
+//or
+const flatten = (ary) => ary.reduce((a, b) => a.concat(Array.isArray(b) ? flatten(b) : b), [])
+//function calling
+flatten(["level 1","level 1",
+  ["level 2","level 2", "level 2"],
+  ["level 2", 
+   ["level 3", "level 3",["level 4","level 4"]]
+  ]])
+```
+</p>
+  
+</details>
