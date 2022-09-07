@@ -2439,3 +2439,26 @@ flatten(["level 1","level 1",
 </p>
   
 </details>
+
+### 80. Let's say how we want to remove all the negative numbers and split the odd numbers into an even number and a 1
+```javascript
+const a = [5, 4, -3, 20, 17, -33, -4, 18]
+```
+expected output: [4, 1, 4, 20, 16, 1, 18]
+
+<details><summary><b>Answer</b></summary>
+<p>
+
+##### Answer: 
+```javascript
+  const result = a.flatMap((n) => {
+    if (n < 0) {
+      return [];
+    }
+    return n % 2 === 0 ? [n] : [n - 1, 1];
+  });
+  console.log(result);
+```
+</p>
+  
+</details>
